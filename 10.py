@@ -7,7 +7,8 @@ while True:
     print("1. Display Series")
     print("2. Add element")
     print("3. Delete element")
-    print("4. Exit")
+    print("4. Display max & min")
+    print("5. Exit")
 
     choice = int(input("Enter your Choice: "))
 
@@ -24,11 +25,23 @@ while True:
     elif choice == 3:
         print(series1)
         index = input('Enter element index which need to remove: ')
-        series1 = series1.drop(index, inplace= True)
-        print('--Element is removed--')
-        print(series1)
+       
+        if index in series1.index:
+            series1 = series1.drop(index)
+            print('--Element is removed--')
+            print(series1)
+
+        else:
+            print('Index not found!!')
+
 
     elif choice == 4:
+         print("--Max value of series--") 
+         print(series1.max()) 
+         print("--Min value of series--") 
+         print(series1.min())
+
+    elif choice == 5:
         print('Have a nice day.')
         break
 
