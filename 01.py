@@ -12,3 +12,4 @@ plt.ylabel('Profit')
 plt.title('Line Graph')
 plt.legend(['Profit'])
 plt.show()
+

@@ -17,3 +17,4 @@ plt.ylabel('Rainfall')
 plt.title('Rainfall in different zones of India')
 plt.legend(['North','South'])
 plt.show()
+
