@@ -20,9 +20,7 @@ y = np.array([197000,209000,414000,196000,272000,311000,213000,455000,278000])
 
 plt.bar(x,y)
 plt.xlabel('App Name')
-plt.ylabel('Total Downloads')  
+plt.ylabel('Total Downloads')
 plt.title('App Downloads')
-plt.legend(['Downloads'])
+plt.legend()
 plt.show()
-
-
