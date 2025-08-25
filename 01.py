@@ -1,6 +1,3 @@
-
-#: Write a python program to generate line graph with suitable title and labels. Where x is the year of performance with values 2014,2015,2016,2017,2018 and 2019. And y axis shows  the profit of a particular company in Rs.(Millions).
-
 import matplotlib.pyplot as plt
 
 x = [2014,2015,2016,2017,2018,2019]
@@ -12,7 +9,6 @@ plt.ylabel('Profit in Rs.(Millions)')
 plt.title('Profit of a company')
 plt.legend(['Profit'])
 plt.show()
-#: Write a python program to generate line graph with suitable title and labels. Where x is the year of performance with values 2014,2015,2016,2017,2018 and 2019. And y axis shows  the profit of a particular company in Rs.(Millions).
 
 import matplotlib.pyplot as plt
 import numpy as np

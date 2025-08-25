@@ -1,9 +1,3 @@
-
-#: Given the following data of rainfall in different zones of India in mm for 12 months, Create multiple lines chart in a Figure to observe any trends from Jan to Dec.
-#Zones	Jan	Feb	Mar	Apr	May	Jun	Jul	Aug	Sep	Oct	Nov	Dec
-#North	14	13	13	19	16	20	15	17	19	17	15	12
-#South	16	20	13	20	20	17	11	16	13	14	17	20
-
 import matplotlib.pyplot as plt
 import numpy as np  
 
