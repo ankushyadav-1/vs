@@ -31,6 +31,13 @@ while True:
         books = books.drop(book_id, errors='ignore')
         print('--Data Updated ')
 
+    elif choice == 4:
+        print(books)
+        book_id = input('Enter Book Id to delete row (example: B001): ')
+        books = books.drop(book_id, axis=0, errors='ignore')
+        print('--Data Updated ')
+
+
     elif choice == 5:
         print('Have a nice day.')
         break
